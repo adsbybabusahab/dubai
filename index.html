@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-    <!-- Font Awesome Icons ke liye -->
+    <meta charset="UTF-8">
+    <!-- मोबाइल स्क्रीन पर सही साइज दिखाने के लिए सबसे जरूरी टैग -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUBAI JACKPOT KING</title>
+    
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
@@ -10,6 +15,7 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            -webkit-tap-highlight-color: transparent;
         }
 
         body {
@@ -17,14 +23,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
                         url('https://picsum.photos/800/1200') no-repeat center center/cover;
-            padding: 20px 15px;
+            padding: 20px 16px;
         }
 
         .container {
             width: 100%;
-            max-width: 400px;
+            max-width: 380px; /* मोबाइल पर सही चौड़ाई */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -35,17 +41,17 @@
             background: linear-gradient(180deg, #0f3818 0%, #051a0a 100%);
             border: 1px solid #1e5e29;
             border-radius: 20px;
-            padding: 25px 20px;
+            padding: 24px 18px;
             width: 100%;
             text-align: center;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
         }
 
         /* Profile Image */
         .profile-container {
             position: relative;
-            width: 130px;
-            height: 130px;
+            width: 120px;
+            height: 120px;
             margin: 0 auto 15px;
             border-radius: 50%;
             padding: 4px;
@@ -58,14 +64,15 @@
             height: 100%;
             border-radius: 50%;
             object-fit: cover;
+            display: block;
         }
 
         /* Main Heading */
         .brand-name {
             color: #ffffff;
-            font-size: 26px;
+            font-size: 24px;
             font-weight: 800;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             margin-bottom: 6px;
         }
 
@@ -89,19 +96,19 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 8px;
-            margin-bottom: 20px;
+            margin-bottom: 18px;
         }
 
         .stat-box {
             border: 1px solid #2d703a;
             border-radius: 12px;
-            padding: 10px 5px;
-            background: rgba(0, 0, 0, 0.2);
+            padding: 10px 4px;
+            background: rgba(0, 0, 0, 0.25);
         }
 
         .stat-value {
             color: #ffffff;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 800;
         }
 
@@ -115,8 +122,8 @@
         .features-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: 10px;
-            margin-top: 10px;
+            gap: 8px;
+            margin-top: 8px;
         }
 
         .feature-item {
@@ -128,7 +135,7 @@
 
         .feature-icon {
             color: #ffffff;
-            font-size: 20px;
+            font-size: 18px;
         }
 
         .feature-text {
@@ -140,11 +147,11 @@
         .btn-join {
             display: block;
             width: 100%;
-            margin-top: 15px;
-            padding: 15px 10px;
+            margin-top: 16px;
+            padding: 14px 10px;
             background: linear-gradient(180deg, #7cfc00 0%, #32cd32 100%);
-            color: #cc0000;
-            font-size: 18px;
+            color: #b30000;
+            font-size: 17px;
             font-weight: 800;
             text-align: center;
             text-decoration: none;
@@ -154,7 +161,7 @@
         }
 
         .btn-join:active {
-            transform: scale(0.98);
+            transform: scale(0.97);
         }
 
         @keyframes goldenGlowBlink {
@@ -163,8 +170,8 @@
                 opacity: 1;
             }
             50% {
-                box-shadow: 0 0 25px #ffd700, 0 0 40px #ffae00, 0 0 60px #ffd700;
-                opacity: 0.85;
+                box-shadow: 0 0 25px #ffd700, 0 0 45px #ffae00, 0 0 60px #ffd700;
+                opacity: 0.9;
                 transform: scale(1.02);
             }
             100% {
@@ -175,7 +182,7 @@
 
         /* Footer */
         .footer {
-            margin-top: 25px;
+            margin-top: 20px;
             text-align: center;
             color: #9ca3af;
             font-size: 12px;
@@ -188,11 +195,11 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 255, 0.07);
             padding: 6px 14px;
             border-radius: 30px;
-            border: 1px solid rgba(255, 215, 0, 0.2);
-            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 215, 0, 0.25);
+            backdrop-filter: blur(5px);
         }
 
         .ads-label {
@@ -281,7 +288,7 @@
             © 2020-26 DUBAI JACKPOT KING<br>
             Professional Cricket Analysis<br>
             
-            <!-- Added Credit Section -->
+            <!-- Credit Section -->
             <div class="ads-credit">
                 <span class="ads-label">⚡ Ads Setup by</span>
                 <a href="https://t.me/sahab164" target="_blank" rel="noopener noreferrer" class="ads-link">Babu Sahab</a>
@@ -291,4 +298,3 @@
 
 </body>
 </html>
-
