@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DUBAI JACKPOT KING</title>
     
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2917091371965934');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2917091371965934&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -30,7 +48,7 @@
 
         .container {
             width: 100%;
-            max-width: 380px; /* मोबाइल पर सही चौड़ाई */
+            max-width: 380px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -158,6 +176,7 @@
             border-radius: 12px;
             transition: transform 0.2s;
             animation: goldenGlowBlink 1.5s infinite ease-in-out;
+            cursor: pointer;
         }
 
         .btn-join:active {
@@ -213,6 +232,7 @@
         .ads-link {
             background: linear-gradient(135deg, #ffd700, #ffae00);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             font-weight: 800;
             font-size: 12px;
@@ -233,7 +253,7 @@
         <div class="card">
             <!-- Profile Picture -->
             <div class="profile-container">
-               <img src="https://i.postimg.cc/7PjfqLfr/IMG-20260910-173512-977.jpg" alt="Ishita Tips" class="profile-img">
+               <img src="https://i.postimg.cc/7PjfqLfr/IMG-20260910-173512-977.jpg" alt="Dubai Jackpot King" class="profile-img">
             </div>
 
             <!-- Title & Info -->
@@ -278,8 +298,8 @@
             </div>
         </div>
 
-        <!-- Call to Action Button with Golden Glow & Blink -->
-        <a href="https://t.me/+OCopxvflz4gxYjQ1" class="btn-join">
+        <!-- Call to Action Button with Meta Pixel Lead Event -->
+        <a href="https://t.me/+OCopxvflz4gxYjQ1" class="btn-join" onclick="fbq('track', 'Lead');">
             🚀 Join Free Telegram Channel
         </a>
 
